@@ -1,0 +1,10 @@
+[package]
+name = "cfds"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+domain = { version = "0.7", features = ["master"] }
+clap = { version = "4.0", features = ["derive"] }
+cloudflare = "0.9"
+anyhow = "1.0"
